@@ -56,3 +56,18 @@
 - definitely
 - that's perfect
 - I'am feeling better
+
+## intent:mood_unhappy
+- sad
+- very sad
+- unhappy
+- bad
+- very bad
+- awful
+- terrible
+- not very good
+- extremely sad
+- so sad
+- not feeling nice
+- feeling bad
+- awfully bad
