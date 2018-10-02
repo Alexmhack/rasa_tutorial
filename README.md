@@ -78,7 +78,8 @@ python -m rasa_nlu.train -c nlu_config.yml --data nlu.md -o models --fixed_model
 
 We are also passing the ```--project current``` and ```--fixed_model_name nlu``` 
 parameters, this means the model will be saved at ```./models/current/nlu``` relative 
-to your working directory.
+to your working directory. Which means your project name is **current** and your model
+name will be **nlu**
 
 ## Trying The Model
 There are two ways with which you can test your model, first directly from **Python** 
@@ -134,5 +135,101 @@ The results will be json formatted data
         }
     ],
     "text": "let's see some chinese restaurants"
+}
+```
+
+## Server Testing
+Once the models is trained you can run the **rasa_nlu** server using
+
+For server testing run another command that will create another training model\\
+
+```
+python -m rasa_nlu.train -c nlu_config.yml --data nlu.md
+```
+
+```
+python -m rasa_nlu.server -c nlu_config.yml --path models/nlu
+```
+
+Send message to **rasa_nlu** using 
+
+```
+# copy model_<random number> from your directory => models/nlu/default/model_<>
+curl -XPOST localhost:5000/parse -d "{\"q\":\"I am looking for chinese food\", \"project\":\"default\", \"model\":\"model_20181002-111701\"}"
+
+# result
+{
+  "intent": {
+    "name": "restaurant_search",
+    "confidence": 0.9771914482116699
+  },
+  "entities": [],
+  "intent_ranking": [
+    {
+      "name": "restaurant_search",
+      "confidence": 0.9771914482116699
+    },
+    {
+      "name": "greet",
+      "confidence": 0.002338866237550974
+    },
+    {
+      "name": "thankyou",
+      "confidence": 0.0
+    }
+  ],
+  "text": "I am looking for Chinese food",
+  "project": "default",
+  "model": "model_20181002-111701"
+}
+```
+
+These backslashes are to escape the double quotes because cmd only accepts double 
+quotes not single quotes.
+
+In terminal you can simply run
+
+```
+$ curl -XPOST localhost:5000/parse -d '{"q":"I am looking for chinese food", "project":"default", "model":"model_20181002-111701"}'
+```
+
+Try out some more command with other messages
+
+```
+curl -XPOST localhost:5000/parse -d "{\"q\":\"how me chinese restaurants\", \"project\":\"default\", \"model\":\"model_20181002-111701\"}"
+
+# result
+{
+  "intent": {
+    "name": "restaurant_search",
+    "confidence": 0.9607101082801819
+  },
+  "entities": [
+    {
+      "start": 7,
+      "end": 14,
+      "value": "chinese",
+      "entity": "cuisine",
+      "confidence": 0.7814517850850685,
+      "extractor": "ner_crf"
+    }
+  ],
+  "intent_ranking": [
+    {
+      "name": "restaurant_search",
+      "confidence": 0.9607101082801819
+    },
+    {
+      "name": "greet",
+      "confidence": 0.04189501330256462
+    },
+    {
+      "name": "thankyou",
+      "confidence": 0.012600380927324295
+    }
+  ],
+  "text": "how me chinese restaurants",
+  "project": "default",
+  "model": "model_20181002-111701"
 }
 ```
