@@ -248,6 +248,10 @@
       {
         "intent": "mood_unhappy",
         "text": "awfully bad"
+      },
+      {
+        "intent": "mood_unhappy",
+        "text": "I am so sad"
       }
     ],
     "regex_features": [],

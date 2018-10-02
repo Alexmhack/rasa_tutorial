@@ -71,3 +71,4 @@
 - not feeling nice
 - feeling bad
 - awfully bad
+- I am so sad
