@@ -136,4 +136,3 @@ The results will be json formatted data
     "text": "let's see some chinese restaurants"
 }
 ```
-
