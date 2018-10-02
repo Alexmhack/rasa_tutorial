@@ -1,0 +1,7 @@
+intents:
+  - greet
+  - goodbye
+  - mood_unhappy
+  - mood_affirm
+  - mood_deny
+  - mood_great
