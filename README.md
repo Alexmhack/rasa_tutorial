@@ -233,3 +233,273 @@ curl -XPOST localhost:5000/parse -d "{\"q\":\"how me chinese restaurants\", \"pr
   "model": "model_20181002-111701"
 }
 ```
+
+# [Rasa Core](https://rasa.com/docs/core/quickstart/)
+```
+pip install rasa_core
+```
+
+## Write Stories
+In this very simple conversation, the user says hello to our bot, and the bot says hello back. This is how it looks as a story:
+
+```
+## story 1
+* greet
+  - utter_grret
+```
+
+A story starts with ```##``` followed by a name which is optional. Line that starts 
+with ```*``` are the messages sent by user. Although we don't write the messages 
+themselves but rather the intents and entities what the user means. Lines that start
+with ```-``` are actions by your bot.
+
+In the above case we simply call the action of ```utter_bot``` which are simply 
+messages sent back to the user, but in general actions can do anything including 
+calling an **API** and interacting with the outside world.
+
+Create a file named ```stories.md```
+
+```
+## happy path
+* greet
+  - utter_greet
+* mood_great
+  - utter_happy
+
+## sad path 1
+* greet
+  - utter_greet
+* mood_unhappy
+  - utter_cheer_up
+  - utter_did_that_help
+* mood_affirm
+  - utter_happy
+
+## sad path 2
+* greet
+  - utter_greet
+* mood_unhappy
+  - utter_cheer_up
+  - utter_did_that_help
+* mood_deny
+  - utter_goodbye
+
+## say goodbye
+* goodbye
+  - utter_goodbye
+```
+
+The above stories are pretty straight forward. ```## happpy path``` which means that
+take this path whenver **rasa_core** detects happy path. It will be invoked on a 
+```* greet``` message from user and if that happens then bot will reply with ```- utter_greet```
+
+These all responses and messages will defined later on.
+
+The same way all other stories work.
+
+## Define Domain
+The next thing we will do is define a **domain**. The domain defines the **universe** 
+your bot lives in.
+
+Here is an example domain for our bot, write this into ```domain.yml```
+
+```
+intents:
+  - greet
+  - goodbye
+  - mood_great
+  - mood_affirm
+  - mood_deny
+  - mood_unhappy
+
+actions:
+  - utter_greet
+  - utter_cheer_up
+  - utter_did_that_help
+  - utter_happy
+  - utter_goodbye
+
+templates:
+  utter_greet:
+    - text: "Hey! How are you ?"
+
+  utter_cheer_up:
+    - text: "Here is something to cheer you up:"
+    - image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+    - text: "Did that help you ?"
+
+  utter_happy:
+    - text: "Great carry on!"
+
+  utter_goodbye:
+    - text: "Bye"
+```
+
+Below are the meaning of different parts of ```domain.yml``` file
+
+1. ```intents``` : things we expect users to say
+2. ```actions``` : things your bot can do and say
+3. ```templates``` : template strings your bot can say
+4. ```entities``` : pieces of info you want to extract from messages
+5. ```slots``` : information to keep track of during a conversation
+
+**Rasa Core's** job is to choose the right action to execute at each step of the 
+conversation. Simple actions are just sending a message to the user. These simple
+actions are the **actions** in the domain, that start with **utter_**.
+
+They will just respond with a message based on a template from the templates section. 
+See [Actions](https://rasa.com/docs/core/customactions/#customactions) for how to build more interesting actions.
+
+We haven't added **entities** and **slots** in the domain because we don't need them 
+in this simple example.
+
+## Train Dialogue Model
+Next step is to train a neural network on our example stories. To do this run the 
+command below
+
+```
+python -m rasa_core.train -d domain.yml -s stories.md -o models/dialogue
+```
+
+## Talking To Bot
+Now we can use our train model to send structed messages directly, we haven't added a 
+model yet.
+
+You can play around with the bot, directly sending in the intents in the domain. To 
+do this, start your message with a /. Give it a try by sending the message /greet.
+
+Run the below code 
+
+```
+python -m rasa_core.run -d models/dialogue
+
+# output
+
+2018-10-02 18:14:46 INFO     root  - Rasa Core server is up and running on http://localhost:5005
+Bot loaded. Type a message and press enter (use '/stop' to exit):
+/greet
+Hey! How are you ?
+127.0.0.1 - - [2018-10-02 18:15:07] "POST /webhooks/rest/webhook?stream=true&token= HTTP/1.1" 200 186 0.300320
+```
+
+Only ```/greet``` would work right now. In the next section we will add **NLU**
+
+## Add NLU
+It's obvious that we want our bot to understand real language and not just structered 
+input.
+
+An interpreter is responsible for parsing messages. It performs the **Natural 
+Language Understanding(NLU)** and transforms the message into structed output. We 
+will use **Rasa NLU** for this purpose.
+
+We are going to use Markdown Format for NLU training data. Let’s create some intent 
+examples in a file called nlu.md:
+
+```
+## intent:greet
+- hey
+- hello
+- hey there
+- hi
+- good morning
+- good evening
+- good afternoon
+
+## intent:goodbye
+- bye
+- seeya
+- see ya
+- goodbye
+- see you later
+- see you around
+
+## intent:mood_affirm
+- yes
+- indeed
+- of course
+- obviously
+- that sounds good
+- correct
+- alright
+- alright then
+- sure
+- that's nice
+- awesome
+- yeah
+- yippy
+
+## intent:mood_deny
+- no
+- never
+- nahhh
+- I don't think so
+- don't like that
+- no way
+- not really
+- not sure
+- nope
+- definitely not
+- wrong
+
+## intent:mood_great
+- perfect
+- good
+- very good
+- great
+- amazing
+- wonderful
+- I'am feeling very good
+- I'am great
+- I'm good
+- definitely
+- that's perfect
+- I'am feeling better
+
+## intent:mood_unhappy
+- sad
+- very sad
+- unhappy
+- bad
+- very bad
+- awful
+- terrible
+- not very good
+- extremely sad
+- so sad
+- not feeling nice
+- feeling bad
+- awfully bad
+```
+
+These are some very common messages that our bot can receive. You can improve this 
+by adding lot's more responses natural language messages.
+
+After this we need a **configuration** file ```nlu_config.yml``` for the **NLU** model
+
+```
+language: en
+pipeline: tensorflow_embedding
+```
+
+If you haven't installed **Rasa NLU** module install it first ```pip install rasa_nlu``` and then train the **NLU** model by running
+
+```
+python -m rasa_nlu.train -c nlu_config.yml --data nlu.md -o models --fixed_model_name nlu --project current --verbose
+```
+
+A new directory models/current/nlu should have been created containing the NLU model. 
+Note that current stands for project name, since this is specified in the train 
+command.
+
+## Talking To Bot
+Now that we’ve added an NLU model, you can talk to your bot using natural language, 
+rather than typing in structured input. Let’s start up your full bot, including both 
+Rasa Core and Rasa NLU models!
+
+Run this command 
+
+```
+python -m rasa_core.run -d models/dialogue -u models/current/nlu
+```
