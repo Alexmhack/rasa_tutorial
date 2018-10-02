@@ -23,9 +23,22 @@
 - that sounds good
 - correct
 - alright
-- great then
+- alright then
 - sure
-- that's great
+- that's nice
 - awesome
 - yeah
 - yippy
+
+## intent:mood_deny
+- no
+- never
+- nahhh
+- I don't think so
+- don't like that
+- no way
+- not really
+- not sure
+- nope
+- definitely not
+- wrong
