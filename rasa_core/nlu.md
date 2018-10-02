@@ -42,3 +42,17 @@
 - nope
 - definitely not
 - wrong
+
+## intent:mood_great
+- perfect
+- good
+- very good
+- great
+- amazing
+- wonderful
+- I'am feeling very good
+- I'am great
+- I'm good
+- definitely
+- that's perfect
+- I'am feeling better
