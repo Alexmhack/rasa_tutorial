@@ -1,0 +1,2 @@
+model_checkpoint_path: "F:\\coder\\rasa_tutorial\\models\\botproject\\botmodel\\intent_classifier_tensorflow_embedding.ckpt"
+all_model_checkpoint_paths: "F:\\coder\\rasa_tutorial\\models\\botproject\\botmodel\\intent_classifier_tensorflow_embedding.ckpt"
