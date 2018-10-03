@@ -20,8 +20,9 @@ while True:
 		break
 	responses = agent.handle_message(a)
 	print(f"RESPONSE: {responses}")
+	print(f"USER: {a}")
 	for r in responses:
-		print(r)
+		print(f"BOT: {r.get('text')}")
 		messages.append(r.get('text'))
 	time.sleep(0.3)
 	print(chatlogs_html(a))
