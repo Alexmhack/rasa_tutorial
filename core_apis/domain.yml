@@ -8,6 +8,7 @@ actions:
   - utter_greet
   - utter_ask_name
   - utter_default
+  - utter_greet_with_name
 
 templates:
   utter_greet:
