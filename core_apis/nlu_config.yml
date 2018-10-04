@@ -1,2 +1,2 @@
-language: "en"
-pipeline: "spacy_sklearn"
+language: en
+pipeline: spacy_sklearn
