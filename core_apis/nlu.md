@@ -25,3 +25,13 @@
 - talk to you later
 - I'll see you later
 - bye bye then
+
+## intent:mood_affirm
+- yes
+- indeed
+- of course
+- that sounds good
+- correct
+- okay
+- okhie
+- ok
