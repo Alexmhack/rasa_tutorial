@@ -10,16 +10,16 @@ actions:
   - utter_default
 
 templates:
-  utter_greet
+  utter_greet:
     - text: "Hey! How are you ?"
 
-  utter_ask_name
+  utter_ask_name:
     - text: "I am Django! What is your name ?"
 
-  utter_greet_with_name
+  utter_greet_with_name:
     - text: "Hey There {name}!"
 
-  utter_default
+  utter_default:
     - text: "This is a default message"
 
 slots:
