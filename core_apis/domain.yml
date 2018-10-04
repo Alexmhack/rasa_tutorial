@@ -1,0 +1,16 @@
+intents:
+  - greet
+  - goodbye
+  - mood_affirm
+  - mood_deny
+
+actions:
+  - utter_greet
+  - utter_ask_name
+
+templates:
+  utter_greet
+    - text: "Hey! How are you ?"
+
+  utter_ask_name
+    - text: "I am Django! What is your name ?"
