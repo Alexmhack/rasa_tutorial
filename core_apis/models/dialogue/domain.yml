@@ -1,0 +1,32 @@
+%YAML 1.1
+---
+actions:
+- utter_greet
+- utter_ask_name
+- utter_default
+- utter_greet_with_name
+config:
+  store_entities_as_slots: true
+entities: []
+intents:
+- greet:
+    use_entities: true
+- goodbye:
+    use_entities: true
+- mood_affirm:
+    use_entities: true
+- mood_deny:
+    use_entities: true
+slots:
+  name:
+    initial_value: human
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_ask_name:
+  - text: I am Django! What is your name ?
+  utter_default:
+  - text: This is a default message
+  utter_greet:
+  - text: Hey! How are you ?
+  utter_greet_with_name:
+  - text: Hey There {name}!
