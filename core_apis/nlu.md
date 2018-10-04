@@ -35,3 +35,16 @@
 - okay
 - okhie
 - ok
+
+## intent:mood_deny
+- no
+- never
+- I don't think so
+- don't like that
+- no way
+- not really
+- not sure
+- nahh
+- uncertain
+- nopes
+- deny
