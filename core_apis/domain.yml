@@ -7,6 +7,7 @@ intents:
 actions:
   - utter_greet
   - utter_ask_name
+  - utter_default
 
 templates:
   utter_greet
@@ -14,6 +15,12 @@ templates:
 
   utter_ask_name
     - text: "I am Django! What is your name ?"
+
+  utter_greet_with_name
+    - text: "Hey There {name}!"
+
+  utter_default
+    - text: "This is a default message"
 
 slots:
   name:
