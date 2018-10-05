@@ -15,3 +15,8 @@
 ## bye path
 * bye
 	- utter_bye
+
+## confirmation email
+* contact
+	- utter_ask_email_id
+* provide_email
