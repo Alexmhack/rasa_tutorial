@@ -1,14 +1,21 @@
 intents:
   - greet
+  - bye
 
 actions:
   - utter_greet
+  - utter_greet_with_name
+  - utter_bye
 
 templates:
   utter_greet:
     - text: "Hey! I am Django Bot! What is your name ?"
+
   utter_greet_with_name:
     - text: "Hey! {name}"
+
+  utter_bye:
+    - text: "Ok bye..."
 
 slots:
   name:
