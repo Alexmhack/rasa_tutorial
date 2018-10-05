@@ -1,0 +1,14 @@
+intents:
+  - greet
+
+actions:
+  - utter_greet
+
+templates:
+  utter_greet:
+    - text: "Hey! I am Django Bot!"
+
+slots:
+  name:
+    type: text
+    initial_value: "human"
