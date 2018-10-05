@@ -149,6 +149,36 @@
             "entity": "name"
           }
         ]
+      },
+      {
+        "text": "goodbye",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "bye",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "seeya",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "ttyl",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "talk to you later",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "see you later",
+        "intent": "bye",
+        "entities": []
       }
     ]
   }
