@@ -68,7 +68,7 @@
       },
       {
         "text": "Hey my name is Alex",
-        "intent": "greet",
+        "intent": "provideName",
         "entities": [
           {
             "start": 15,
@@ -80,7 +80,7 @@
       },
       {
         "text": "Alex",
-        "intent": "greet",
+        "intent": "provideName",
         "entities": [
           {
             "start": 0,
@@ -92,7 +92,7 @@
       },
       {
         "text": "Hey! There I am Alex",
-        "intent": "greet",
+        "intent": "provideName",
         "entities": [
           {
             "start": 16,
@@ -104,7 +104,7 @@
       },
       {
         "text": "Hello myself Alex",
-        "intent": "greet",
+        "intent": "provideName",
         "entities": [
           {
             "start": 13,
@@ -116,7 +116,7 @@
       },
       {
         "text": "I am Alex",
-        "intent": "greet",
+        "intent": "provideName",
         "entities": [
           {
             "start": 5,
@@ -128,7 +128,7 @@
       },
       {
         "text": "Myself alex",
-        "intent": "greet",
+        "intent": "provideName",
         "entities": [
           {
             "start": 7,
@@ -140,7 +140,7 @@
       },
       {
         "text": "my name is alex",
-        "intent": "greet",
+        "intent": "provideName",
         "entities": [
           {
             "start": 11,
