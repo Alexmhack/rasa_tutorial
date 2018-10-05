@@ -179,6 +179,46 @@
         "text": "see you later",
         "intent": "bye",
         "entities": []
+      },
+      {
+        "text": "no",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "nopes",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "nahh",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "I don't want to",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "I am not interested",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "not interested",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "not likely",
+        "intent": "negative",
+        "entities": []
+      },
+      {
+        "text": "not at all",
+        "intent": "negative",
+        "entities": []
       }
     ]
   }
