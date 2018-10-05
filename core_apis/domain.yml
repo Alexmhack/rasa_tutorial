@@ -1,15 +1,16 @@
+slots:
+  name:
+    type: text
+    
+entities:
+  - name
+
 intents:
   - greet
-  - greet_with_name
+  - provideName
   - negative
   - bye
-
-actions:
-  - utter_greet
-  - utter_ask_name
-  - utter_greet_with_name
-  - utter_no_worries
-  - utter_bye
+  - contact
 
 templates:
   utter_greet:
@@ -27,7 +28,10 @@ templates:
   utter_no_worries:
     - text: "No worries human"
 
-slots:
-  name:
-    type: text
-    # initial_value: "human"
+actions:
+  - utter_greet
+  - utter_ask_name
+  - utter_greet_with_name
+  - utter_no_worries
+  - utter_bye
+  - utter_ask_email_id
