@@ -2,7 +2,7 @@
 * greet
 	- utter_greet
 	- utter_ask_name
-* greet_with_name
+* provideName
 	- utter_greet_with_name
 
 ## negative greet
