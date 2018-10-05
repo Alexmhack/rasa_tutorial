@@ -2,6 +2,7 @@ intents:
   - greet
   - ask_name
   - greet_with_name
+  - negative
   - bye
 
 actions:
@@ -22,6 +23,9 @@ templates:
 
   utter_greet_with_name:
     - text: "Hey {name}!"
+
+  utter_no_worries:
+    - text: "No worries human"
 
 slots:
   name:
