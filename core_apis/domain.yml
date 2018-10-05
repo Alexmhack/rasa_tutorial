@@ -1,11 +1,13 @@
 intents:
   - greet
   - ask_name
+  - greet_with_name
   - bye
 
 actions:
   - utter_greet
   - utter_ask_name
+  - utter_greet_with_name
   - utter_bye
 
 templates:
@@ -17,6 +19,9 @@ templates:
 
   utter_bye:
     - text: "Ok bye..."
+
+  utter_greet_with_name:
+    - text: "Hey {name}!"
 
 slots:
   name:
