@@ -6,9 +6,11 @@ actions:
 
 templates:
   utter_greet:
-    - text: "Hey! I am Django Bot!"
+    - text: "Hey! I am Django Bot! What is your name ?"
+  utter_greet_with_name:
+    - text: "Hey! {name}"
 
 slots:
   name:
     type: text
-    initial_value: "human"
+    # initial_value: "human"
