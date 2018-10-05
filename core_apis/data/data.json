@@ -1,0 +1,155 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "hello",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hey there",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hi",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hey",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hey!!",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "good morning",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "good evening",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "good afternoon",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "yo",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "heyy",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hey how are you ?",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hello, how are you ?",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hi, how are you ?",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Hey my name is Alex",
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 15,
+            "end": 19,
+            "value": "Alex",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "Alex",
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "Alex",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "Hey! There I am Alex",
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 16,
+            "end": 20,
+            "value": "Alex",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "Hello myself Alex",
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 13,
+            "end": 17,
+            "value": "Alex",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "I am Alex",
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 5,
+            "end": 9,
+            "value": "Alex",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "Myself alex",
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 7,
+            "end": 11,
+            "value": "alex",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "my name is alex",
+        "intent": "greet",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "alex",
+            "entity": "name"
+          }
+        ]
+      }
+    ]
+  }
+}
