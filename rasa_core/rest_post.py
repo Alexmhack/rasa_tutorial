@@ -2,11 +2,14 @@ import requests
 
 url = 'http://localhost:5005/webhooks/rest/webhook'
 
-data = {
-	"sender": "Rasa",
-	"message": "hello"
-}
-
-r = requests.post(url, json=data)
-print(r.status_code)
-print(r.json())
+while True:
+	message = input(">> ")
+	if message == 'stop':
+		break
+	data = {
+		"sender": "Rasa",
+		"message": f"{message}"
+	}
+	r = requests.post(url, json=data)
+	print(r.status_code)
+	print(r.json())
