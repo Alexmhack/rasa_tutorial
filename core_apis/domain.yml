@@ -1,6 +1,5 @@
 intents:
   - greet
-  - ask_name
   - greet_with_name
   - negative
   - bye
