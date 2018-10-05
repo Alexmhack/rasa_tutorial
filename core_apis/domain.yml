@@ -9,6 +9,7 @@ actions:
   - utter_greet
   - utter_ask_name
   - utter_greet_with_name
+  - utter_no_worries
   - utter_bye
 
 templates:
