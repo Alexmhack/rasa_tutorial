@@ -503,3 +503,45 @@ Run this command
 ```
 python -m rasa_core.run -d models/dialogue -u models/current/nlu
 ```
+
+## Rasa Rest Channel
+To use the **Rasa Core** ```rest``` features you need to create a file named **credentials.yml**
+
+```
+rest:
+  # you don't need to provide anything here - this channel doesn't
+  # require any credentials
+```
+
+Now we need to run the ```rasa_core``` server providing the ```credentials```
+
+```
+python -m rasa_core.run -d models/dialogue -u models/current/nlu --credentials credentials.yml
+```
+
+This will provide us with a endpoint that can receive ```POST``` requests.
+
+```
+POST /webhooks/rest/webhook
+```
+
+For sending those requests you can send a post request using python
+
+**rest_post.py**
+```
+import requests
+
+url = 'http://localhost:5005/webhooks/rest/webhook'
+
+data = {
+  "sender": "Rasa",
+  "message": "no it didn't"
+}
+
+r = requests.post(url, json=data)
+print(r.status_code)
+print(r.json())
+```
+
+This way we can make use of the rest input channels that rasa core provides.
+Checkout [docs](https://rasa.com/docs/core/connectors/#restinput) for more info.
