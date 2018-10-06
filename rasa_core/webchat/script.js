@@ -2,19 +2,26 @@ var botui = new BotUI('my-botui-app');
 
 $(() => {
 
+	$.support.cors = true;
+
 	// send ajax request to rasa core server with message received from user
 	function sendMessage(message) {
+		console.log(message);
+
 		console.log("SEND FUNCTION IS RUNNING...");
 		console.log("USER MESSAGE: " + message);
 
 		var chatMessage = {
-			"sender": "Djangio",
+			"sender": "Djagi]p",
 			"message": message
 		}
 
-		var botMessage;
+		var botMessage = " this is bot message variable";
 
 		$.ajax({
+			headers: {
+              	"Access-Control-Allow-Origin":"*"
+          	},
 			url: "http://localhost:5005/webhooks/rest/webhook",
 			method: "post",
 			dataType: "json",
@@ -25,18 +32,16 @@ $(() => {
 			success: (res) => {
 				console.log(res[0]['text']);
 				console.log(res[0]['recipient_id']);
-
-				botMessage = "This is the sample message";
 			},
 			error: (err) => {
-				console.error("AJAX REQUEST ERROR: " + err);
+				console.error(err);
 				console.error(err.status);
 				console.error(err.statusText);
 			}
+		// ajax ends here
 		})
 
-		console.log(botMessage);
-		return botMessage;
+	// function ends here
 	}
 
 	botui.message.add({ // show a message
@@ -50,8 +55,17 @@ $(() => {
 	  });
 	}).then(function (res) { // get the result
 	  botui.message.add({
-	    content: sendMessage(res.value)	// sendMessage(message);
-	  });
+	  	content: res.value + sendMessage(res.value)
+	 //  	loading: true
+	 //  }).then(function (index) {
+	 //    var response = sendMessage(res.value)
+	 //    console.log(response);
+
+		// botui.message.update(index, {
+		// 	loading: false,
+		// 	content: response
+		// });
+	  })
 	});
 
 })
