@@ -3,30 +3,42 @@ intents:
   - provideName
   - negative
   - bye
-  # - contact
+  - provide_email
 
 entities:
   - name
+  - email
 
 slots:
   name:
+    type: text
+  email:
     type: text
     
 templates:
   utter_greet:
     - text: "Hey! I am Django Bot!"
-
+  
   utter_ask_name:
     - text: "Would you like to tell your name please ?"
-
+  
   utter_bye:
     - text: "Ok bye..."
-
+  
   utter_greet_with_name:
     - text: "Hey {name}!"
-
+  
   utter_no_worries:
     - text: "No worries human"
+  
+  utter_ask_email_id:
+    - text: "Please provide us your email id"
+  
+  utter_send_email:
+    - text: "sending confirmation email to {email}!"
+  
+  utter_formality:
+    - text: "We just need a little more information"
 
 actions:
   - utter_greet
@@ -34,4 +46,6 @@ actions:
   - utter_greet_with_name
   - utter_no_worries
   - utter_bye
-  # - utter_ask_email_id
+  - utter_ask_email_id
+  - utter_send_email
+  - utter_formality
