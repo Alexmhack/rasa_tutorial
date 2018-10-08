@@ -535,6 +535,162 @@
         "text": "Enough for today",
         "intent": "bye",
         "entities": []
+      },
+      {
+        "text": "my email is any@example.com",
+        "intent": "provide_email",
+        "entities": [
+          {
+            "start": 12,
+            "end": 27,
+            "value": "any@example.com",
+            "entity": "email"
+          }
+        ]
+      },
+      {
+        "text": "any@example.com is my email id",
+        "intent": "provide_email",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "any@example.com",
+            "entity": "email"
+          }
+        ]
+      },
+      {
+        "text": "any@example.com",
+        "intent": "provide_email",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "any@example.com",
+            "entity": "email"
+          }
+        ]
+      },
+      {
+        "text": "any@example.com is the only email i got",
+        "intent": "provide_email",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "any@example.com",
+            "entity": "email"
+          }
+        ]
+      },
+      {
+        "text": "my email address is any@example.com",
+        "intent": "provide_email",
+        "entities": [
+          {
+            "start": 20,
+            "end": 35,
+            "value": "any@example.com",
+            "entity": "email"
+          }
+        ]
+      },
+      {
+        "text": "any@example.com is email address",
+        "intent": "provide_email",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "any@example.com",
+            "entity": "email"
+          }
+        ]
+      },
+      {
+        "text": "any@example.com is email id",
+        "intent": "provide_email",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "any@example.com",
+            "entity": "email"
+          }
+        ]
+      },
+      {
+        "text": "any@example.com is my id",
+        "intent": "provide_email",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "any@example.com",
+            "entity": "email"
+          }
+        ]
+      },
+      {
+        "text": "any@example.com is the email I use",
+        "intent": "provide_email",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "any@example.com",
+            "entity": "email"
+          }
+        ]
+      },
+      {
+        "text": "email id any@example.com",
+        "intent": "provide_email",
+        "entities": [
+          {
+            "start": 9,
+            "end": 24,
+            "value": "any@example.com",
+            "entity": "email"
+          }
+        ]
+      },
+      {
+        "text": "email address is any@example.com",
+        "intent": "provide_email",
+        "entities": [
+          {
+            "start": 17,
+            "end": 32,
+            "value": "any@example.com",
+            "entity": "email"
+          }
+        ]
+      },
+      {
+        "text": "use any@example.com",
+        "intent": "provide_email",
+        "entities": [
+          {
+            "start": 4,
+            "end": 19,
+            "value": "any@example.com",
+            "entity": "email"
+          }
+        ]
+      },
+      {
+        "text": "any@example.com is my primary email",
+        "intent": "provide_email",
+        "entities": [
+          {
+            "start": 0,
+            "end": 15,
+            "value": "any@example.com",
+            "entity": "email"
+          }
+        ]
       }
     ]
   }
