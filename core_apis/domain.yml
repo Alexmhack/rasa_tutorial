@@ -1,17 +1,17 @@
-slots:
-  name:
-    type: text
-    
-entities:
-  - name
-
 intents:
   - greet
   - provideName
   - negative
   - bye
-  - contact
+  # - contact
 
+entities:
+  - name
+
+slots:
+  name:
+    type: text
+    
 templates:
   utter_greet:
     - text: "Hey! I am Django Bot!"
@@ -34,4 +34,4 @@ actions:
   - utter_greet_with_name
   - utter_no_worries
   - utter_bye
-  - utter_ask_email_id
+  # - utter_ask_email_id
