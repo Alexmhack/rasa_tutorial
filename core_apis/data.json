@@ -219,6 +219,322 @@
         "text": "not at all",
         "intent": "negative",
         "entities": []
+      },
+      {
+        "text": "Hey my name is Alex Hopper",
+        "intent": "provideName",
+        "entities": [
+          {
+            "start": 15,
+            "end": 26,
+            "value": "Alex Hopper",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "Hey my name is Rishabh Singh Gour",
+        "intent": "provideName",
+        "entities": [
+          {
+            "start": 15,
+            "end": 33,
+            "value": "Rishabh Singh Gour",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "Hello myself Aman",
+        "intent": "provideName",
+        "entities": [
+          {
+            "start": 13,
+            "end": 17,
+            "value": "Aman",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "I am Aman",
+        "intent": "provideName",
+        "entities": [
+          {
+            "start": 5,
+            "end": 9,
+            "value": "Aman",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "my name is alex",
+        "intent": "provideName",
+        "entities": [
+          {
+            "start": 11,
+            "end": 15,
+            "value": "alex",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "my name is Alex Hopper",
+        "intent": "provideName",
+        "entities": [
+          {
+            "start": 11,
+            "end": 22,
+            "value": "Alex Hopper",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "Hey my name is Rishabh Gour",
+        "intent": "provideName",
+        "entities": [
+          {
+            "start": 15,
+            "end": 27,
+            "value": "Rishabh Gour",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "my name is tom",
+        "intent": "provideName",
+        "entities": [
+          {
+            "start": 11,
+            "end": 14,
+            "value": "tom",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "Alex",
+        "intent": "provideName",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "Alex",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "aman",
+        "intent": "provideName",
+        "entities": [
+          {
+            "start": 0,
+            "end": 4,
+            "value": "aman",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "Rishabh Singh Gour",
+        "intent": "provideName",
+        "entities": [
+          {
+            "start": 0,
+            "end": 18,
+            "value": "Rishabh Singh Gour",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "alex hopper",
+        "intent": "provideName",
+        "entities": [
+          {
+            "start": 0,
+            "end": 11,
+            "value": "alex hopper",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "ethan hunt",
+        "intent": "provideName",
+        "entities": [
+          {
+            "start": 0,
+            "end": 10,
+            "value": "ethan hunt",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "Hey! There I am Ethan Hunt",
+        "intent": "provideName",
+        "entities": [
+          {
+            "start": 16,
+            "end": 26,
+            "value": "Ethan Hunt",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "Myself Ethan",
+        "intent": "provideName",
+        "entities": [
+          {
+            "start": 7,
+            "end": 12,
+            "value": "Ethan",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "Myself Trey Skevis",
+        "intent": "provideName",
+        "entities": [
+          {
+            "start": 7,
+            "end": 18,
+            "value": "Trey Skevis",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "Myself Trey",
+        "intent": "provideName",
+        "entities": [
+          {
+            "start": 7,
+            "end": 11,
+            "value": "Trey",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "Myself Skevis",
+        "intent": "provideName",
+        "entities": [
+          {
+            "start": 7,
+            "end": 13,
+            "value": "Skevis",
+            "entity": "name"
+          }
+        ]
+      },
+      {
+        "text": "Hi bot",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Nice to meet you",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "nice talking to you",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "hey there bot",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "heyyyyy ",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hiiii",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hey I am so happy today",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "heyy there!!!",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "I will talk to you again",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "Hello bot",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "helloooo",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "bye bye",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "good bye",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "bye bye",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "bye-bye",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "bbye",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "I am done for now",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "I am done",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "Done for today",
+        "intent": "bye",
+        "entities": []
+      },
+      {
+        "text": "Enough for today",
+        "intent": "bye",
+        "entities": []
       }
     ]
   }
