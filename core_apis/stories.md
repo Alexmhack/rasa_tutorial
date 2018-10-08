@@ -1,10 +1,3 @@
-## positive greet
-* greet
-	- utter_greet
-	- utter_ask_name
-* provideName{"name": "Jason"}
-	- utter_greet_with_name
-
 ## negative greet
 * greet
 	- utter_greet
@@ -15,24 +8,18 @@
 ## bye path
 * bye
 	- utter_bye
-## Generated Story -1315981074254737577
-* greet
-    - utter_greet
-    - utter_ask_name
-* provideName{"name": "bharat"}
-    - slot{"name": "bharat"}
-    - utter_greet_with_name
-* greet
-    - utter_bye
 
-## Generated Story -5611830641933411692
+## Generated Story -1419940888143078244
 * greet
     - utter_greet
     - utter_ask_name
-* provideName{"name": "Tenali"}
-    - slot{"name": "Tenali"}
+* provideName{"name": "Virat"}
+    - slot{"name": "Virat"}
     - utter_greet_with_name
-* bye
-    - utter_bye
+    - utter_formality
+    - utter_ask_email_id
+* provide_email{"email": "virat@india.com"}
+    - slot{"email": "virat@india.com"}
+    - utter_send_email
     - action_restart
 
