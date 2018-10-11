@@ -43,6 +43,8 @@ templates:
     - text: "I'm sorry, I can't handle that request."
     - text: "I can't help you with that, I'm sorry."
     - text: "It seems like I can't handle that request."
+  utter_possibilities:
+    - text: "You can either contact to sales person or subscribe to our newsletter."
 
 actions:
   - utter_greet
@@ -54,3 +56,4 @@ actions:
   - utter_great
   - action_store_email
   - utter_out_of_scope
+  - utter_possibilities
