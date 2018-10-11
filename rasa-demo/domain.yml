@@ -32,7 +32,7 @@ templates:
   utter_ask_email:
     - text: "What's your email address?"
   utter_confirm_email:
-    - text: "Great! 👍 We have you covered now!"
+    - text: "Great! 👍 We have you covered now with {email}"
   utter_great:
     - text: "Great! 👍"
     - text: "That's great! 🙌"
@@ -47,3 +47,4 @@ actions:
   - utter_ask_email
   - utter_confirm_email
   - utter_great
+  - action_store_email
