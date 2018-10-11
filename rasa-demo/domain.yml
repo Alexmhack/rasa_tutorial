@@ -27,8 +27,17 @@ templates:
     - text: "I'm great! Thanks for asking."
     - text: "I'm good, thanks!"
     - text: "A little bit too warm, otherwise fine."
+  utter_ask_goal:
+    - text: "You can signup for our newsletter, listen a joke or contact our salesperson"
+  utter_ask_email:
+    - text: "What's your email address?"
+  utter_confirm_email:
+    - text: "Great! 👍 We have you covered now!"
 
 actions:
   - utter_greet
   - utter_bye
   - utter_ask_howdoing
+  - utter_ask_goal
+  - utter_ask_email
+  - utter_confirm_email
