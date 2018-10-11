@@ -20,7 +20,12 @@ templates:
     - text: "Bye!"
     - text: "Ciao!"
     - text: "Bye, was nice talking to you!"
+  utter_ask_howdoing:
+    - text: "I'm great! Thanks for asking."
+    - text: "I'm good, thanks!"
+    - text: "A little bit too warm, otherwise fine."
 
 actions:
   - utter_greet
   - utter_bye
+  - utter_ask_howdoing
