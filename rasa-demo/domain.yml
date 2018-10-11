@@ -8,6 +8,7 @@ intents:
   - signup_newsletter
   - enter_data
   - ask_howdoing
+  - utter_out_of_scope
 
 slots:
   email:
