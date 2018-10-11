@@ -137,71 +137,107 @@
 - How are you?
 
 ## intent:enter_data
-- maxmeier@firma.de
-- bot-fan@bots.com
-- maxmeier@firma.de
-- bot-fan@bots.com
-- my email is email@rasa.com
-- my email is markjobs@ibm.com
-- my email is khardik.kmosu@bol.net.in
-- my business mail is mikemiller@sales.apple.com
-- email = stephanywhite@microsoft.com
-- mail: julianfrank@hotmail.com
-- santaklaus@googlemail.com
-- saswatkarhar@rediffmail.com
-- nerd@stanford.edu
-- alexander.denker@tu-berlin.de
-- sislawawa@india.com
-- chengming@aliyun.com
-- mrmop@mops.app
-- My email is linda@linda.linda
-- adele@gmx.com
-- moabit@yoga.com
-- solomq122@qq.mail.com
-- loretta@strawberry-ice.come
-- hi@rasa.com
-- hello@hello.com
-- klausimausi@apple.com
-- akela@philipp.com
-- help@help.com
-- test@test.com
-- philipp@thephilippcompany.com
-- joey@koolmanconsulting.com
-- ifuckrobots666@apple.com
-- myemail@gmail.com
-- ulrikovitcheisenkleber@eisenkleberlimitedcokg.com
-- my email is kevin@yoloooz.de
-- 123@skdv.fvsdj
-- 123@gmail.com
-- udo@udo.ai
-- linda@yoloyolo.de
-- elise@gmail.com
-- linda@linda.com
-- hey@kldpeffesfoken.oinwf
-- linda@rasa.ai
--  propella@daskapital.de
-- bigassnerd@rasa.com
-- yesplease@yes.com
-- tamedmouse@micerevolution.fr
-- volodimir@rasa.com
-- junk@junk.com
-- al@acme.org
-- none@none.co.uk
-- juste@juste.com
-- shiba@shiba.com
-- tylerthemateman@clubmate.com
-- me@me.com
-- j@p.com
-- herbert@gmail.com
-- hi@elise.de
-- ulle@gmx.de
-- me@you.de
-- akela@akela.com
-- ames@rasa.com
-- valid_email@one.de
-- valid@one.email
-- ok its email@email.com
-- akelaistcool@schwabenländle.de
+- [maxmeier@firma.de](email)
+- [bot-fan@bots.com](email)
+- [maxmeier@firma.de](email)
+- [bot-fan@bots.com](email)
+- my email is [email@rasa.com](email)
+- my email is [markjobs@ibm.com](email)
+- my email is [khardik.kmosu@bol.net.in](email)
+- my business mail is [mikemiller@sales.apple.com](email)
+- email = [stephanywhite@microsoft.com](email)
+- mail: [julianfrank@hotmail.com](email)
+- [santaklaus@googlemail.com](email)
+- [saswatkarhar@rediffmail.com](email)
+- [nerd@stanford.edu](email)
+- [alexander.denker@tu-berlin.de](email)
+- [sislawawa@india.com](email)
+- [chengming@aliyun.com](email)
+- [mrmop@mops.app](email)
+- [My email is linda@linda.linda](email)
+- [adele@gmx.com](email)
+- [moabit@yoga.com](email)
+- [solomq122@qq.mail.com](email)
+- [loretta@strawberry-ice.come](email)
+- [hi@rasa.com](email)
+- [hello@hello.com](email)
+- [klausimausi@apple.com](email)
+- [akela@philipp.com](email)
+- [help@help.com](email)
+- [test@test.com](email)
+- [philipp@thephilippcompany.com](email)
+- [joey@koolmanconsulting.com](email)
+- [ifuckrobots666@apple.com](email)
+- [myemail@gmail.com](email)
+- [ulrikovitcheisenkleber@eisenkleberlimitedcokg.com](email)
+- my email is [kevin@yoloooz.de](email)
+- [123@skdv.fvsdj](email) is my email address
+- [123@gmail.com](email)
+- [udo@udo.ai](email)
+- [linda@yoloyolo.de](email)
+- [elise@gmail.com](email) is my email address
+- [linda@linda.com](email)
+- [hey@kldpeffesfoken.oinwf](email)
+- [linda@rasa.ai](email)
+- [propella@daskapital.de](email)
+- [bigassnerd@rasa.com](email)
+- [yesplease@yes.com](email)
+- [tamedmouse@micerevolution.fr](email)
+- [volodimir@rasa.com](email) is the email I use
+- [junk@junk.com](email)
+- [al@acme.org](email) is my email address
+- [none@none.co.uk](email) is the email I use
+- [juste@juste.com](email)
+- [shiba@shiba.com](email)
+- [tylerthemateman@clubmate.com](email) is my email address
+- [me@me.com](email) is my email address
+- [j@p.com](email)
+- [herbert@gmail.com](email)
+- [hi@elise.de](email)
+- [ulle@gmx.de](email)
+- [me@you.de](email)
+- [akela@akela.com](email) is the email I use
+- my email address is [ames@rasa.com](email)
+- [valid_email@one.de](email)
+- [valid@one.email](email)
+- ok its [email@email.com](email)
+- [akelaistcool@schwabenländle.de](email) is the email I use
+- [randall@yahoo.com](email)
+- my email address is [dhwon@outlook.com](email)
+- [amaranth@sbcglobal.net](email) is my email address
+- [kewley@optonline.net](email)
+- [barnett@yahoo.com](email)
+- [cumarana@sbcglobal.net](email)
+- [bowmanbs@verizon.net](email)
+- [rande@me.com](email)
+- [bachmann@yahoo.com](email) is the email I use
+- [neuffer@outlook.com](email)
+- [horrocks@mac.com](email)
+- my email address is [kayvonf@live.com](email)
+- [themer@att.net](email)
+- my email address is [mschilli@icloud.com](email)
+- [knorr@live.com](email)
+- [rnelson@gmail.com](email)
+- [jaesenj@hotmail.com](email) is my email address
+- [mwilson@hotmail.com](email)
+- [suresh@outlook.com](email) is the email I use
+- [william@me.com](email)
+- [caidaperl@comcast.net](email)
+- [dleconte@optonline.net](email) is my email address
+- [njpayne@outlook.com](email)
+- my email address is [fbriere@att.net](email)
+- [improv@sbcglobal.net](email)
+- [flaviog@me.com](email) is my email address
+- [wojciech@sbcglobal.net](email)
+- [malin@verizon.net](email) is the email I use
+- [bdbrown@verizon.net](email)
+- [noahb@optonline.net](email)
+- [carroll@live.com](email)
+- [sinclair@msn.com](email) is my email address
+- [jigsaw@yahoo.ca](email)
+- [dleconte@msn.com](email) is the email I use
+- [overbom@hotmail.com](email)
+- my email address is [drewf@gmail.com](email)
 
 ## intent:signup_newsletter
 - I wanna sign up for the newsletter.
