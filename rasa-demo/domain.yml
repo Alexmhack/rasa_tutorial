@@ -1,1 +1,26 @@
+entities:
+  - email
+  - name
 
+intents:
+  - greet
+  - bye
+
+slots:
+  email:
+    type: text
+  name:
+    type: text
+
+templates:
+  utter_greet:
+    - text: "Hey there, welcome to Alexmhack's Website!"
+  utter_bye:
+    - text: "Goodbye!"
+    - text: "Bye!"
+    - text: "Ciao!"
+    - text: "Bye, was nice talking to you!"
+
+actions:
+  - utter_greet
+  - utter_bye
