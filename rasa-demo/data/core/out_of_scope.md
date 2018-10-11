@@ -1,0 +1,12 @@
+## newsletter
+* greet
+    - utter_greet
+    - utter_inform_privacypolicy
+    - utter_ask_goal
+* signup_newsletter
+    - utter_great
+    - utter_ask_email
+* out_of_scope
+    - utter_out_of_scope
+    - utter_possibilities
+    - utter_ask_email

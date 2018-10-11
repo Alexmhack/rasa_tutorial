@@ -38,6 +38,11 @@ templates:
     - text: "That's great! 🙌"
     - text: "Awesome! 🎉"
     - text: "Cool, let's do it 🚀"
+  utter_out_of_scope:
+    - text: "Sorry, I can’t deal with that request."
+    - text: "I'm sorry, I can't handle that request."
+    - text: "I can't help you with that, I'm sorry."
+    - text: "It seems like I can't handle that request."
 
 actions:
   - utter_greet
@@ -48,3 +53,4 @@ actions:
   - utter_confirm_email
   - utter_great
   - action_store_email
+  - utter_out_of_scope
