@@ -46,3 +46,4 @@ actions:
   - utter_ask_goal
   - utter_ask_email
   - utter_confirm_email
+  - utter_great
