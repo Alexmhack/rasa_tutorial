@@ -135,3 +135,183 @@
 - how are you doing?
 - how are u
 - How are you?
+
+## intent:enter_data
+- maxmeier@firma.de
+- bot-fan@bots.com
+- maxmeier@firma.de
+- bot-fan@bots.com
+- my email is email@rasa.com
+- my email is markjobs@ibm.com
+- my email is khardik.kmosu@bol.net.in
+- my business mail is mikemiller@sales.apple.com
+- email = stephanywhite@microsoft.com
+- mail: julianfrank@hotmail.com
+- santaklaus@googlemail.com
+- saswatkarhar@rediffmail.com
+- nerd@stanford.edu
+- alexander.denker@tu-berlin.de
+- sislawawa@india.com
+- chengming@aliyun.com
+- mrmop@mops.app
+- My email is linda@linda.linda
+- adele@gmx.com
+- moabit@yoga.com
+- solomq122@qq.mail.com
+- loretta@strawberry-ice.come
+- hi@rasa.com
+- hello@hello.com
+- klausimausi@apple.com
+- akela@philipp.com
+- help@help.com
+- test@test.com
+- philipp@thephilippcompany.com
+- joey@koolmanconsulting.com
+- ifuckrobots666@apple.com
+- myemail@gmail.com
+- ulrikovitcheisenkleber@eisenkleberlimitedcokg.com
+- my email is kevin@yoloooz.de
+- 123@skdv.fvsdj
+- 123@gmail.com
+- udo@udo.ai
+- linda@yoloyolo.de
+- elise@gmail.com
+- linda@linda.com
+- hey@kldpeffesfoken.oinwf
+- linda@rasa.ai
+-  propella@daskapital.de
+- bigassnerd@rasa.com
+- yesplease@yes.com
+- tamedmouse@micerevolution.fr
+- volodimir@rasa.com
+- junk@junk.com
+- al@acme.org
+- none@none.co.uk
+- juste@juste.com
+- shiba@shiba.com
+- tylerthemateman@clubmate.com
+- me@me.com
+- j@p.com
+- herbert@gmail.com
+- hi@elise.de
+- ulle@gmx.de
+- me@you.de
+- akela@akela.com
+- ames@rasa.com
+- valid_email@one.de
+- valid@one.email
+- ok its email@email.com
+- akelaistcool@schwabenländle.de
+
+## intent:signup_newsletter
+- I wanna sign up for the newsletter.
+- I want to sign up for the newsletter.
+- I would like to sign up for the newsletter.
+- Sign me up for the newsletter.
+- Sign up.
+- Newsletter please.
+- add me to the newsletter
+- newsletter
+- sign up for the NL
+- yeaaah lets go for the newsletter
+- I want to subscribe to your newsletter
+- newsletter pls
+- sign up to the newsletter
+- get the latest news from Rasa
+- sign me up for the newsletter - my email is yesplease@rasa.ai
+- newsletter, here is my email: sisi@rasa.com
+- newsletter - my email is lol@rasa.com
+- Subscribe to Rasa newsletter
+- Newsletter
+- subscribe
+- get the newsletter
+- I also want to subscribe
+- id like to subscribe
+- I'd like to subscribe
+- I want the newsletter
+- sign up
+- i want to signup
+- newsletter please
+- nl
+- id like to receive the newsletter
+- i want the newsletter
+- add me as your subscriber
+- add me to the subscription list
+- newsletter please my email is linda@yolo.de
+- i want to receive your nl
+- i want the newsletter
+- i want to subsribe to the newsletter
+- can you pelase subscribe me to the newsletter
+- can you subscribe me to the newsletter
+- subscription newsletter
+- newsletter subscription
+- gimme the newsletter
+- i need the newsletter
+- may i receive the newsletter from now on
+- i would love to get the newsletter
+- please send me the newsletter
+- send me the newsletter
+- i want to receive the newsletter from now on
+- get newsletter
+- get the newsletter
+- i want to get the newsletter
+- i'm craving the newsletter
+- i prefer to get the newsletter
+- subscribe me to the newsletter
+- please subscribe me to your newsletter
+- i would love to receive the rasa newsletter
+- sign me up for that newsletter
+- sign me up for the rasa newsletter
+- i want to sign up for the newsletter
+- lets do the newsletter signup
+- newsletter registration
+- register me for the newsletter
+- please sign me up for the newsletter
+- add me to the newsletter
+- add me to the newsletter list
+- i need to be on the newsletter list
+- i want to join the newsletter mails
+- i want to receive the newsletter emails
+- can you sign me up for the newsletter
+- join that newsletter
+- i want to join the newsletter list
+- how about the newsletter signup
+- subscribe to newsletter
+- newsletter it is
+- i go for the newsletter
+- lets try the newsletter signup
+- lets try the newsletter registration
+- how about the newsletter
+- newsletter registration first
+- first lets sign up for the newsletter
+- now i want to signup for the newsletter
+- can you add alan@mail.com to the newsletter list?
+- i want on this dope newsletter - my email is alex@mail.com
+- but please sign me up for the newsletter!
+- i want to signup for the nl
+- subscribe example@rasa.com to the newsletter
+- subscribe hi@rasa.com to the newsletter
+- subscribe to the newsletter
+- please subscribe me to the newsletter alex@example.cz
+- subscribe my email alex@mail.mail to the newsletter
+- Subscribe
+- i also want to sign up for the newsletter
+- subscribe to your newsletter
+- can i get emails from you
+- news
+- i'd like your newspaper please
+- sign up for newsletter
+- what about signing up for the newsletter?
+- get a subscription
+- to make a subscribtion
+- let's make a subscribtion
+- I would love to subscribe to a newsletter!
+- i need this dope newsletter
+- oh actually i want to get the newsletter
+- i want to subscribe to your newsletter
+- can i sign up to the newsletter too?
+- do the newsletter then
+- i want to subscribe
+- i want newsletter
+- i want on that dope newsletter
+- Subscribe
