@@ -33,6 +33,11 @@ templates:
     - text: "What's your email address?"
   utter_confirm_email:
     - text: "Great! 👍 We have you covered now!"
+  utter_great:
+    - text: "Great! 👍"
+    - text: "That's great! 🙌"
+    - text: "Awesome! 🎉"
+    - text: "Cool, let's do it 🚀"
 
 actions:
   - utter_greet
