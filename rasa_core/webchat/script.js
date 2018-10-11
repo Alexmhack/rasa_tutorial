@@ -32,6 +32,8 @@ $(() => {
 			success: (res) => {
 				console.log(res[0]['text']);
 				console.log(res[0]['recipient_id']);
+				var msg = res[0]['recipient_id']
+				console.log(msg.toString());
 			},
 			error: (err) => {
 				console.error(err);
