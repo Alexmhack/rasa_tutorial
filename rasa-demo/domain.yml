@@ -46,6 +46,10 @@ templates:
     - text: "It seems like I can't handle that request."
   utter_possibilities:
     - text: "You can either contact to sales person or subscribe to our newsletter."
+  utter_ask_username:
+    - text: "Please enter your username"
+  utter_awesome:
+    - text: "Awesome, {name}! 👍"
 
 actions:
   - utter_greet
@@ -58,3 +62,4 @@ actions:
   - action_store_email
   - utter_out_of_scope
   - utter_possibilities
+  - utter_ask_username
