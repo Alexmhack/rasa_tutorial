@@ -1,6 +1,6 @@
 entities:
   - email
-  - name
+  - username
 
 intents:
   - greet
@@ -29,7 +29,7 @@ templates:
     - text: "I'm good, thanks!"
     - text: "A little bit too warm, otherwise fine."
   utter_ask_goal:
-    - text: "You can signup for our newsletter, listen a joke or contact our salesperson"
+    - text: "You can signup for our newsletter or create a new account"
   utter_ask_email:
     - text: "What's your email address?"
   utter_confirm_email:
@@ -48,8 +48,8 @@ templates:
     - text: "You can either contact to sales person or subscribe to our newsletter."
   utter_ask_username:
     - text: "Please enter your username"
-  utter_awesome:
-    - text: "Awesome, {name}! 👍"
+  utter_awesome_username:
+    - text: "Awesome, {username}! 👍"
 
 actions:
   - utter_greet
@@ -63,3 +63,4 @@ actions:
   - utter_out_of_scope
   - utter_possibilities
   - utter_ask_username
+  - utter_awesome_username

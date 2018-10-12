@@ -260,397 +260,395 @@
 - [pranav@tollyasdfasdfwood.edu](email) is my email id
 - [pranjal@unbreakable.edu](email) is my email address
 - my email address is [tseriesbrothers@stanford.edu](email)
-- [Aliza Gillespie](name)
-- [Marilyn Reed](name)
-- [Essence Simpson](name)
-- [Barbara Harris](name)
-- [Leon Horn](name)
-- [Paul Walsh](name)
-- [Lacey Horne](name)
-- [Weston Fitzgerald](name)
-- [Cherish Patterson](name)
-- [Alexia Bruce](name)
-- [Aleah Boyer](name)
-- [Trevin Durham](name)
-- [Adrienne Molina](name)
-- [Katelyn Ramirez](name)
-- [Avah Ibarra](name)
-- [Cooper Dickerson](name)
-- [Rafael Willis](name)
-- [Emma Phillips](name)
-- [Kiersten Montoya](name)
-- [Londyn Lam](name)
-- [Deven Castaneda](name)
-- [Judah Kent](name)
-- [Zain Raymond](name)
-- [Delilah Padilla](name)
-- [Daphne Burnett](name)
-- [Laci Mejia](name)
-- [Olive Stokes](name)
-- [Madisyn Matthews](name)
-- [Callie Wise](name)
-- [Amy Shea](name)
-- [Anabelle Benjamin](name)
-- [Zechariah Brock](name)
-- [Shiloh Holloway](name)
-- [Sienna Marshall](name)
-- [Kai Thomas](name)
-- [Shayla Mckee](name)
-- [Charlee Kim](name)
-- [Mathew Perkins](name)
-- [Sasha Huffman](name)
-- [Braxton Ellison](name)
-- [Rhett Powell](name)
-- [Ariana Benson](name)
-- [Mitchell Perez](name)
-- [Mollie Hinton](name)
-- [Katherine Nelson](name)
-- [Demarion Hayden](name)
-- [Dixie Huang](name)
-- [Sterling Bishop](name)
-- [Bruno Turner](name)
-- [Khloe Odom](name)
-- [Colt Mosley](name)
-- [Emerson Coleman](name)
-- [Geovanni Lopez](name)
-- [Alexandria Clark](name)
-- [Leonardo Fitzpatrick](name)
-- [Ismael Lozano](name)
-- [Ramon Wade](name)
-- [Kamari Wagner](name)
-- [Carlie Spence](name)
-- [Jamiya Winters](name)
-- [Jaylyn Robbins](name)
-- [Jovanny Case](name)
-- [Jace Joyce](name)
-- [Laila Ayala](name)
-- [Ronin Long](name)
-- [Jaylah Hunter](name)
-- [Ezra Rios](name)
-- [Hannah Mcgee](name)
-- [Hana Brown](name)
-- [Maxim Reilly](name)
-- [Ellis Walters](name)
-- [Reese Davila](name)
-- [Aaron Gomez](name)
-- [Jairo Pacheco](name)
-- [Monserrat Boone](name)
-- [Hanna Wade](name)
-- [Brodie Garza](name)
-- [Haven Franklin](name)
-- [Amiyah Lee](name)
-- [Rayna Wallace](name)
-- [Briley Fisher](name)
-- [Brandon Lane](name)
-- [Kristian Golden](name)
-- [Reed Cameron](name)
-- [Ashleigh Allison](name)
-- [Allisson Velez](name)
-- [Deja Pineda](name)
-- [Iyana Chang](name)
-- [Madeleine Mcclure](name)
-- [Akira Frey](name)
-- [Aaliyah Fritz](name)
-- [Jamal Carr](name)
-- [Penelope Krueger](name)
-- [Mikayla Franco](name)
-- [Landon Rojas](name)
-- [Allen Bautista](name)
-- [Aliyah Cunningham](name)
-- [Gaven Glover](name)
-- [Damarion Lester](name)
-- [Ruby Welch](name)
-- [Kellen Gordon](name)
-- [Hadley Frank](name)
-- [Aaden Juarez](name)
-- [Jacquelyn Acosta](name)
-- [Claire Ramos](name)
-- [Averi Key](name)
-- [Jayla Pope](name)
-- [Renee Griffin](name)
-- [Michelle Wagner](name)
-- [Howard Steele](name)
-- [Hector Dorsey](name)
-- [Markus Armstrong](name)
-- [Lawrence Wolf](name)
-- [Damaris Campbell](name)
-- [Jaquan Mckenzie](name)
-- [Miah Michael](name)
-- [Peter Padilla](name)
-- [Tristian Flores](name)
-- [Tamara Compton](name)
-- [Jessie Rubio](name)
-- [Zaiden Howell](name)
-- [Samuel Wyatt](name)
-- [Dillon Rose](name)
-- [Dixie Mendez](name)
-- [Carmelo Wiley](name)
-- [Heather Whitehead](name)
-- [Damian Collier](name)
-- [Olive Hudson](name)
-- [Addisyn Crawford](name)
-- [Raven Esparza](name)
-- [Chelsea Salazar](name)
-- [Taylor Hatfield](name)
-- [Terry Hanson](name)
-- [Gwendolyn Arellano](name)
-- [Rolando Bullock](name)
-- [Omar Werner](name)
-- [Gage Davis](name)
-- [Mallory Beard](name)
-- [Savion](name)
-- [Juliet](name)
-- [Ean](name)
-- [Raquel](name)
-- [Angelo](name)
-- [Jordyn](name)
-- [Reuben](name)
-- [Laurel](name)
-- [Kenyon](name)
-- [Shayna](name)
-- [Kellen](name)
-- [Camryn](name)
-- [Mariam](name)
-- [Quinn](name)
-- [Brenna](name)
-- [Trace](name)
-- [Areli](name)
-- [Shamar](name)
-- [Hayden](name)
-- [Cristina](name)
-- [Kaliyah](name)
-- [Bailey](name)
-- [Violet](name)
-- [Nataly](name)
-- [Katrina](name)
-- [Alaina](name)
-- [Ethen](name)
-- [Matilda](name)
-- [Moses](name)
-- [Kathryn](name)
-- [Royce](name)
-- [Charles](name)
-- [Paulina](name)
-- [Kate](name)
-- [Phillip](name)
-- [Javon](name)
-- [Sincere](name)
-- [Kylie](name)
-- [Bryanna](name)
-- [Chase](name)
-- [Anabelle](name)
-- [Sanaa](name)
-- [Lucy](name)
-- [Abbie](name)
-- [Moises](name)
-- [Nathalie](name)
-- [Arnav](name)
-- [Kayleigh](name)
-- [Rebecca](name)
-- [Raphael](name)
-- [Cesar](name)
-- [Marissa](name)
-- [Johan](name)
-- [Hazel](name)
-- [Rowan](name)
-- [Kaitlynn](name)
-- [Barrett](name)
-- [Shyann](name)
-- [Lindsey](name)
-- [Elle](name)
-- [Raiden](name)
-- [Amani](name)
-- [Jacoby](name)
-- [Jordan](name)
-- [Julianne](name)
-- [April](name)
-- [Madisyn](name)
-- [Evan](name)
-- [Anabel](name)
-- [Giada](name)
-- [Haven](name)
-- [Hugo](name)
-- [Luka](name)
-- [Antony](name)
-- [Abbey](name)
-- [Ramiro](name)
-- [Talan](name)
-- [Jasiah](name)
-- [Rhys](name)
-- [Celeste](name)
-- [Raina](name)
-- [Irene](name)
-- [Victoria](name)
-- [Isaias](name)
-- [Elisabeth](name)
-- [Abigayle](name)
-- [Lennon](name)
-- [Jordyn](name)
-- [Kenya](name)
-- [Lorenzo](name)
-- [Malia](name)
-- [Malachi](name)
-- [German](name)
-- [Rodrigo](name)
-- [Walker](name)
-- [Aileen](name)
-- [Isaac](name)
-- [Ruben](name)
-- [Mariela](name)
-- [Estrella](name)
-- [Caroline](name)
-- [Niko](name)
-- [Myles](name)
-- [Harmony](name)
-- [Rylee](name)
-- [Jayleen](name)
-- [Raegan](name)
-- [Santos](name)
-- [Elian](name)
-- [Lyla](name)
-- [Jair](name)
-- [Maliyah](name)
-- [Valentina](name)
-- [Wyatt](name)
-- [Khloe](name)
-- [Emerson](name)
-- [Renee](name)
-- [Mohamed](name)
-- [Amaris](name)
-- [Jenny](name)
-- [Jonathan](name)
-- [Ann](name)
-- [Vicente](name)
-- [Kaia](name)
-- [Jeremy](name)
-- [Matthew](name)
-- [Zander](name)
-- [Andreas](name)
-- [Mackenzie](name)
-- [Grace](name)
-- [Maritza](name)
-- [Mckenzie](name)
-- [Jovani](name)
-- [Elijah](name)
-- [Kellen](name)
-- [Roger](name)
-- [Logan](name)
-- [Landen](name)
-- [Jenna](name)
-- [Anthony](name)
+- [Aliza Gillespie](username)
+- [Marilyn Reed](username)
+- [Essence Simpson](username)
+- [Barbara Harris](username)
+- [Leon Horn](username)
+- [Paul Walsh](username)
+- [Lacey Horne](username)
+- [Weston Fitzgerald](username)
+- [Cherish Patterson](username)
+- [Alexia Bruce](username)
+- [Aleah Boyer](username)
+- [Trevin Durham](username)
+- [Adrienne Molina](username)
+- [Katelyn Ramirez](username)
+- [Avah Ibarra](username)
+- [Cooper Dickerson](username)
+- [Rafael Willis](username)
+- [Emma Phillips](username)
+- [Kiersten Montoya](username)
+- [Londyn Lam](username)
+- [Deven Castaneda](username)
+- [Judah Kent](username)
+- [Zain Raymond](username)
+- [Delilah Padilla](username)
+- [Daphne Burnett](username)
+- [Laci Mejia](username)
+- [Olive Stokes](username)
+- [Madisyn Matthews](username)
+- [Callie Wise](username)
+- [Amy Shea](username)
+- [Anabelle Benjamin](username)
+- [Zechariah Brock](username)
+- [Shiloh Holloway](username)
+- [Sienna Marshall](username)
+- [Kai Thomas](username)
+- [Shayla Mckee](username)
+- [Charlee Kim](username)
+- [Mathew Perkins](username)
+- [Sasha Huffman](username)
+- [Braxton Ellison](username)
+- [Rhett Powell](username)
+- [Ariana Benson](username)
+- [Mitchell Perez](username)
+- [Mollie Hinton](username)
+- [Katherine Nelson](username)
+- [Demarion Hayden](username)
+- [Dixie Huang](username)
+- [Sterling Bishop](username)
+- [Bruno Turner](username)
+- [Khloe Odom](username)
+- [Colt Mosley](username)
+- [Emerson Coleman](username)
+- [Geovanni Lopez](username)
+- [Alexandria Clark](username)
+- [Leonardo Fitzpatrick](username)
+- [Ismael Lozano](username)
+- [Ramon Wade](username)
+- [Kamari Wagner](username)
+- [Carlie Spence](username)
+- [Jamiya Winters](username)
+- [Jaylyn Robbins](username)
+- [Jovanny Case](username)
+- [Jace Joyce](username)
+- [Laila Ayala](username)
+- [Ronin Long](username)
+- [Jaylah Hunter](username)
+- [Ezra Rios](username)
+- [Hannah Mcgee](username)
+- [Hana Brown](username)
+- [Maxim Reilly](username)
+- [Ellis Walters](username)
+- [Reese Davila](username)
+- [Aaron Gomez](username)
+- [Jairo Pacheco](username)
+- [Monserrat Boone](username)
+- [Hanna Wade](username)
+- [Brodie Garza](username)
+- [Haven Franklin](username)
+- [Amiyah Lee](username)
+- [Rayna Wallace](username)
+- [Briley Fisher](username)
+- [Brandon Lane](username)
+- [Kristian Golden](username)
+- [Reed Cameron](username)
+- [Ashleigh Allison](username)
+- [Allisson Velez](username)
+- [Deja Pineda](username)
+- [Iyana Chang](username)
+- [Madeleine Mcclure](username)
+- [Akira Frey](username)
+- [Aaliyah Fritz](username)
+- [Jamal Carr](username)
+- [Penelope Krueger](username)
+- [Mikayla Franco](username)
+- [Landon Rojas](username)
+- [Allen Bautista](username)
+- [Aliyah Cunningham](username)
+- [Gaven Glover](username)
+- [Damarion Lester](username)
+- [Ruby Welch](username)
+- [Kellen Gordon](username)
+- [Hadley Frank](username)
+- [Aaden Juarez](username)
+- [Jacquelyn Acosta](username)
+- [Claire Ramos](username)
+- [Averi Key](username)
+- [Jayla Pope](username)
+- [Renee Griffin](username)
+- [Michelle Wagner](username)
+- [Howard Steele](username)
+- [Hector Dorsey](username)
+- [Markus Armstrong](username)
+- [Lawrence Wolf](username)
+- [Damaris Campbell](username)
+- [Jaquan Mckenzie](username)
+- [Miah Michael](username)
+- [Peter Padilla](username)
+- [Tristian Flores](username)
+- [Tamara Compton](username)
+- [Jessie Rubio](username)
+- [Zaiden Howell](username)
+- [Samuel Wyatt](username)
+- [Dillon Rose](username)
+- [Dixie Mendez](username)
+- [Carmelo Wiley](username)
+- [Heather Whitehead](username)
+- [Damian Collier](username)
+- [Olive Hudson](username)
+- [Addisyn Crawford](username)
+- [Raven Esparza](username)
+- [Chelsea Salazar](username)
+- [Taylor Hatfield](username)
+- [Terry Hanson](username)
+- [Gwendolyn Arellano](username)
+- [Rolando Bullock](username)
+- [Omar Werner](username)
+- [Gage Davis](username)
+- [Mallory Beard](username)
+- [Savion](username)
+- [Juliet](username)
+- [Ean](username)
+- [Raquel](username)
+- [Angelo](username)
+- [Jordyn](username)
+- [Reuben](username)
+- [Laurel](username)
+- [Kenyon](username)
+- [Shayna](username)
+- [Kellen](username)
+- [Camryn](username)
+- [Mariam](username)
+- [Quinn](username)
+- [Brenna](username)
+- [Trace](username)
+- [Areli](username)
+- [Shamar](username)
+- [Hayden](username)
+- [Cristina](username)
+- [Kaliyah](username)
+- [Bailey](username)
+- [Violet](username)
+- [Nataly](username)
+- [Katrina](username)
+- [Alaina](username)
+- [Ethen](username)
+- [Matilda](username)
+- [Moses](username)
+- [Kathryn](username)
+- [Royce](username)
+- [Charles](username)
+- [Paulina](username)
+- [Kate](username)
+- [Phillip](username)
+- [Javon](username)
+- [Sincere](username)
+- [Kylie](username)
+- [Bryanna](username)
+- [Chase](username)
+- [Anabelle](username)
+- [Sanaa](username)
+- [Lucy](username)
+- [Abbie](username)
+- [Moises](username)
+- [Nathalie](username)
+- [Arnav](username)
+- [Kayleigh](username)
+- [Rebecca](username)
+- [Raphael](username)
+- [Cesar](username)
+- [Marissa](username)
+- [Johan](username)
+- [Hazel](username)
+- [Rowan](username)
+- [Kaitlynn](username)
+- [Barrett](username)
+- [Shyann](username)
+- [Lindsey](username)
+- [Elle](username)
+- [Raiden](username)
+- [Amani](username)
+- [Jacoby](username)
+- [Jordan](username)
+- [Julianne](username)
+- [April](username)
+- [Madisyn](username)
+- [Evan](username)
+- [Anabel](username)
+- [Giada](username)
+- [Haven](username)
+- [Hugo](username)
+- [Luka](username)
+- [Antony](username)
+- [Abbey](username)
+- [Ramiro](username)
+- [Talan](username)
+- [Jasiah](username)
+- [Rhys](username)
+- [Celeste](username)
+- [Raina](username)
+- [Irene](username)
+- [Victoria](username)
+- [Isaias](username)
+- [Elisabeth](username)
+- [Abigayle](username)
+- [Lennon](username)
+- [Jordyn](username)
+- [Kenya](username)
+- [Lorenzo](username)
+- [Malia](username)
+- [Malachi](username)
+- [German](username)
+- [Rodrigo](username)
+- [Walker](username)
+- [Aileen](username)
+- [Isaac](username)
+- [Ruben](username)
+- [Mariela](username)
+- [Estrella](username)
+- [Caroline](username)
+- [Niko](username)
+- [Myles](username)
+- [Harmony](username)
+- [Rylee](username)
+- [Jayleen](username)
+- [Raegan](username)
+- [Santos](username)
+- [Elian](username)
+- [Lyla](username)
+- [Jair](username)
+- [Maliyah](username)
+- [Valentina](username)
+- [Wyatt](username)
+- [Khloe](username)
+- [Emerson](username)
+- [Renee](username)
+- [Mohamed](username)
+- [Amaris](username)
+- [Jenny](username)
+- [Jonathan](username)
+- [Ann](username)
+- [Vicente](username)
+- [Kaia](username)
+- [Jeremy](username)
+- [Matthew](username)
+- [Zander](username)
+- [Andreas](username)
+- [Mackenzie](username)
+- [Grace](username)
+- [Maritza](username)
+- [Mckenzie](username)
+- [Jovani](username)
+- [Elijah](username)
+- [Kellen](username)
+- [Roger](username)
+- [Logan](username)
+- [Landen](username)
+- [Jenna](username)
+- [Anthony](username)
 
-## intent:signup_newsletter
-- I wanna sign up for the newsletter.
-- I want to sign up for the newsletter.
-- I would like to sign up for the newsletter.
-- Sign me up for the newsletter.
+## intent:signup_account
+- I wanna sign up for the website.
+- I want to sign up for the website.
+- I would like to sign up for the website.
+- Sign me up for the website.
 - Sign up.
-- Newsletter please.
-- add me to the newsletter
-- newsletter
-- sign up for the NL
-- yeaaah lets go for the newsletter
-- I want to subscribe to your newsletter
-- newsletter pls
-- sign up to the newsletter
-- get the latest news from Rasa
-- sign me up for the newsletter - my email is yesplease@rasa.ai
-- newsletter, here is my email: sisi@rasa.com
-- newsletter - my email is lol@rasa.com
-- Subscribe to Rasa newsletter
-- Newsletter
-- subscribe
-- get the newsletter
-- I also want to subscribe
-- id like to subscribe
-- I'd like to subscribe
-- I want the newsletter
+- sign up please.
+- add me to the sign up
+- sign up
+- sign up for the Company
+- yeaaah lets go for the signup
+- I want to register to your website
+- account pls
+- sign up to the website
+- sign me up for the website - my email is yesplease@rasa.ai
+- sign up, here is my email: sisi@rasa.com
+- signup, here is my email: sisi@rasa.com
+- register, here is my email: sisi@rasa.com
+- sign up - my email is lol@rasa.com
+- register - my email is lol@rasa.com
+- signup - my email is lol@rasa.com
+- register to website account
+- Sign Up, Please
+- register
+- get the account
+- I also want to register
+- id like to register
+- I'd like to register
+- I want the account
 - sign up
 - i want to signup
-- newsletter please
-- nl
-- id like to receive the newsletter
-- i want the newsletter
-- add me as your subscriber
-- add me to the subscription list
-- newsletter please my email is linda@yolo.de
-- i want to receive your nl
-- i want the newsletter
-- i want to subsribe to the newsletter
-- can you pelase subscribe me to the newsletter
-- can you subscribe me to the newsletter
-- subscription newsletter
-- newsletter subscription
-- gimme the newsletter
-- i need the newsletter
-- may i receive the newsletter from now on
-- i would love to get the newsletter
-- please send me the newsletter
-- send me the newsletter
-- i want to receive the newsletter from now on
-- get newsletter
-- get the newsletter
-- i want to get the newsletter
-- i'm craving the newsletter
-- i prefer to get the newsletter
-- subscribe me to the newsletter
-- please subscribe me to your newsletter
-- i would love to receive the rasa newsletter
-- sign me up for that newsletter
-- sign me up for the rasa newsletter
-- i want to sign up for the newsletter
-- lets do the newsletter signup
-- newsletter registration
-- register me for the newsletter
-- please sign me up for the newsletter
-- add me to the newsletter
-- add me to the newsletter list
-- i need to be on the newsletter list
-- i want to join the newsletter mails
-- i want to receive the newsletter emails
-- can you sign me up for the newsletter
-- join that newsletter
-- i want to join the newsletter list
-- how about the newsletter signup
-- subscribe to newsletter
-- newsletter it is
-- i go for the newsletter
-- lets try the newsletter signup
-- lets try the newsletter registration
-- how about the newsletter
-- newsletter registration first
-- first lets sign up for the newsletter
-- now i want to signup for the newsletter
-- can you add alan@mail.com to the newsletter list?
-- i want on this dope newsletter - my email is alex@mail.com
-- but please sign me up for the newsletter!
-- i want to signup for the nl
-- subscribe example@rasa.com to the newsletter
-- subscribe hi@rasa.com to the newsletter
-- subscribe to the newsletter
-- please subscribe me to the newsletter alex@example.cz
-- subscribe my email alex@mail.mail to the newsletter
-- Subscribe
-- i also want to sign up for the newsletter
-- subscribe to your newsletter
-- can i get emails from you
-- news
-- i'd like your newspaper please
-- sign up for newsletter
-- what about signing up for the newsletter?
-- get a subscription
-- to make a subscribtion
-- let's make a subscribtion
-- I would love to subscribe to a newsletter!
-- i need this dope newsletter
-- oh actually i want to get the newsletter
-- i want to subscribe to your newsletter
-- can i sign up to the newsletter too?
-- do the newsletter then
-- i want to subscribe
-- i want newsletter
-- i want on that dope newsletter
-- Subscribe
+- account please
+- sign
+- i want the account
+- add me as your user
+- add me to the users list
+- register please my email is linda@yolo.de
+- i want to register your website
+- i want the account
+- i want to register to the website
+- can you pelase register me to the website
+- can you register me to the account
+- account register
+- account subscription
+- gimme the account
+- i need the account
+- may i receive the confirmation email now
+- i would love to get the confirmation email
+- please send me the account confirmation email
+- get account
+- get the account
+- i want to get the account
+- i'm craving the registration
+- i'm craving the register
+- i'm craving the account
+- i prefer to get the account
+- register me to the website
+- please register me to your website
+- sign me up for that website
+- sign me up for the website
+- i want to sign up for the website
+- lets do the user signup
+- user registration
+- register me for the website
+- please sign me up for the website
+- add me to the users
+- add me to the users list
+- i need to be on the accounts list
+- i want to join the users list
+- can you sign me up for the website
+- join that website
+- i want to join the user list
+- how about the account signup
+- signup to website
+- signup it is
+- i go for the signup
+- lets try the account signup
+- lets try the account registration
+- how about the registration
+- account registration first
+- first lets sign up for the website
+- now i want to signup for the website
+- can you add alan@mail.com to the users list?
+- i want on this dope website - my email is alex@mail.com
+- but please sign me up for the website!
+- i want to signup
+- register example@rasa.com to the website
+- sign up hi@rasa.com to the website
+- sign up to the website
+- please sign me as alex@example.cz
+- register my email alex@mail.mail to your website
+- Registration
+- i also want to sign up
+- Sign Up
+- i'd like your account please
+- sign up
+- what about signing up?
+- get a account
+- to make an account
+- let's make a registration
+- I would love to register!
+- i need this dope account
+- oh actually i want to register
+- i want to register to your website
+- can i sign up too?
+- do the registration then
+- i want to register
+- i want account
+- i want that dope account
+- Register
 
 ## intent:out_of_scope
 - I want pizza
@@ -678,7 +676,7 @@
 - I changed my mind
 - what?
 - did i break you
-- I don't wanna tell the name of my company
+- I don't wanna tell the username of my company
 - that link doesn't work!
 - you already have that
 - this is a really frustrating experience
