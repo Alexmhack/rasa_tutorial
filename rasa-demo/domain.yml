@@ -5,7 +5,7 @@ entities:
 intents:
   - greet
   - bye
-  - signup_newsletter
+  - signup_account
   - enter_data
   - ask_howdoing
   - utter_out_of_scope
@@ -13,7 +13,7 @@ intents:
 slots:
   email:
     type: text
-  name:
+  username:
     type: text
 
 templates:
