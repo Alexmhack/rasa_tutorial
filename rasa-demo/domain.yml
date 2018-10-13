@@ -1,6 +1,7 @@
 entities:
   - email
   - username
+  - password
 
 intents:
   - greet
@@ -16,6 +17,10 @@ slots:
     type: text
   username:
     type: text
+  password:
+    type: text
+  is_authenticated:
+    type: bool
 
 templates:
   utter_greet:
@@ -55,6 +60,13 @@ templates:
     - text: "Is there anything else I can help you with"
   utter_alright_then:
     - text: "Alright then"
+  utter_ask_password:
+    - text: "Please enter your password"
+  utter_confirm_details:
+    - text: "Please check your details
+            username: {username}
+            email: {email}
+            password: {password}"
 
 actions:
   - utter_greet
@@ -71,3 +83,5 @@ actions:
   - utter_awesome_username
   - utter_anything_else
   - utter_alright_then
+  - utter_ask_password
+  - utter_confirm_details

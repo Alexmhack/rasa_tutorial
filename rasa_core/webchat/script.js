@@ -5,7 +5,7 @@ $(() => {
 	// for enabling CORS headers
 	$.support.cors = true;
 
-	var sender = "dancer";
+	var sender = "spotlight";
 
 	function generateResponse(message) {
 		console.log('generateResponse is working...')
@@ -82,7 +82,18 @@ $(() => {
 	}).then(function (res) { // get the result
 		
 		generateResponse(res.value)
+
+	// then function ends here
+	}).then(function () { // wait till its shown
+	  return botui.action.text({ // show 'text' action
+	    action: {
+	      placeholder: 'Enter your message here...'
+	    }
+	  });
+	}).then(function (res) { // get the result
 		
+		generateResponse(res.value)
+
 	// then function ends here
 	}).then(function () { // wait till its shown
 	  return botui.action.text({ // show 'text' action
