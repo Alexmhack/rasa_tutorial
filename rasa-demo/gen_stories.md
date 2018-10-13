@@ -67,3 +67,21 @@
 * deny
     - utter_alright_then
 
+## Generated Story -3961552184848484018
+* greet
+    - utter_greet
+    - utter_ask_goal
+* signup_account
+    - utter_great
+    - utter_ask_username
+* enter_data{"username": "justin"}
+    - slot{"username": "justin"}
+    - utter_awesome_username
+    - utter_ask_email
+* enter_data{"email": "justin@men@women"}
+    - slot{"email": "justin@men@women"}
+    - utter_confirm_email
+    - utter_anything_else
+* deny
+    - utter_alright_then
+

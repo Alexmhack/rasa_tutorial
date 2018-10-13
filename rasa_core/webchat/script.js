@@ -2,21 +2,17 @@ var botui = new BotUI('my-botui-app');
 
 $(() => {
 
+	// for enabling CORS headers
 	$.support.cors = true;
 
-	// send ajax request to rasa core server with message received from user
-	function sendMessage(message) {
-		console.log(message);
+	var sender = "dancer";
 
-		console.log("SEND FUNCTION IS RUNNING...");
-		console.log("USER MESSAGE: " + message);
-
+	function generateResponse(message) {
+		console.log('generateResponse is working...')
 		var chatMessage = {
-			"sender": "Djagi]p",
+			"sender": sender,
 			"message": message
 		}
-
-		var botMessage = " this is bot message variable";
 
 		$.ajax({
 			headers: {
@@ -30,10 +26,17 @@ $(() => {
 			traditional: true,
 			crossDomain: true,
 			success: (res) => {
-				console.log(res[0]['text']);
-				console.log(res[0]['recipient_id']);
-				var msg = res[0]['recipient_id']
-				console.log(msg.toString());
+				if (res.value == "Alright then") {
+					console.log('STOP HERE');
+				}
+				for (var i=0; i<res.length; i++) {
+					console.log(res[i]['text'])
+					botui.message.add({
+						bot: true,
+						content: res[i]['text'],
+						delay: 500
+					})
+				}
 			},
 			error: (err) => {
 				console.error(err);
@@ -43,11 +46,10 @@ $(() => {
 		// ajax ends here
 		})
 
-	// function ends here
 	}
 
 	botui.message.add({ // show a message
-	  human: true,
+	  bot: true,
 	  content: 'Hey there! I am Django Bot'
 	}).then(function () { // wait till its shown
 	  return botui.action.text({ // show 'text' action
@@ -56,18 +58,88 @@ $(() => {
 	    }
 	  });
 	}).then(function (res) { // get the result
-	  botui.message.add({
-	  	content: res.value + sendMessage(res.value)
-	 //  	loading: true
-	 //  }).then(function (index) {
-	 //    var response = sendMessage(res.value)
-	 //    console.log(response);
+		
+		generateResponse(res.value)
 
-		// botui.message.update(index, {
-		// 	loading: false,
-		// 	content: response
-		// });
-	  })
-	});
+	// then function ends here
+	}).then(function () { // wait till its shown
+	  return botui.action.text({ // show 'text' action
+	    action: {
+	      placeholder: 'Enter your message here...'
+	    }
+	  });
+	}).then(function (res) { // get the result
+		
+		generateResponse(res.value)
 
+	// then function ends here
+	}).then(function () { // wait till its shown
+	  return botui.action.text({ // show 'text' action
+	    action: {
+	      placeholder: 'Enter your message here...'
+	    }
+	  });
+	}).then(function (res) { // get the result
+		
+		generateResponse(res.value)
+		
+	// then function ends here
+	}).then(function () { // wait till its shown
+	  return botui.action.text({ // show 'text' action
+	    action: {
+	      placeholder: 'Enter your message here...'
+	    }
+	  });
+	}).then(function (res) { // get the result
+		
+		generateResponse(res.value)
+
+	// then function ends here
+	}).then(function () { // wait till its shown
+	  return botui.action.text({ // show 'text' action
+	    action: {
+	      placeholder: 'Enter your message here...'
+	    }
+	  });
+	}).then(function (res) { // get the result
+		
+		generateResponse(res.value)
+
+	// then function ends here
+	}).then(function () { // wait till its shown
+	  return botui.action.text({ // show 'text' action
+	    action: {
+	      placeholder: 'Enter your message here...'
+	    }
+	  });
+	}).then(function (res) { // get the result
+		
+		generateResponse(res.value)
+
+	// then function ends here
+	}).then(function () { // wait till its shown
+	  return botui.action.text({ // show 'text' action
+	    action: {
+	      placeholder: 'Enter your message here...'
+	    }
+	  });
+	}).then(function (res) { // get the result
+		
+		generateResponse(res.value)
+
+	// then function ends here
+	}).then(function () { // wait till its shown
+	  return botui.action.text({ // show 'text' action
+	    action: {
+	      placeholder: 'Enter your message here...'
+	    }
+	  });
+	}).then(function (res) { // get the result
+		
+		generateResponse(res.value)
+
+	// then function ends here
+	})
+
+// document ready function ends here
 })
