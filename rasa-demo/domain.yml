@@ -9,6 +9,7 @@ intents:
   - enter_data
   - ask_howdoing
   - utter_out_of_scope
+  - deny
 
 slots:
   email:
@@ -50,6 +51,10 @@ templates:
     - text: "Please enter your username"
   utter_awesome_username:
     - text: "Awesome, {username}! 👍"
+  utter_anything_else:
+    - text: "Is there anything else I can help you with"
+  utter_alright_then:
+    - text: "Alright then"
 
 actions:
   - utter_greet
@@ -64,3 +69,5 @@ actions:
   - utter_possibilities
   - utter_ask_username
   - utter_awesome_username
+  - utter_anything_else
+  - utter_alright_then

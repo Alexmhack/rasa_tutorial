@@ -1,53 +1,69 @@
-## Generated Story 6300792002127654078
-* greet
-    - utter_greet
-    - utter_ask_goal
-* signup_newsletter
-    - utter_great
-    - utter_ask_email
-* enter_data{"email": "alex@gmail.com"}
-    - slot{"email": "alex@gmail.com"}
-    - utter_confirm_email
-
-## Generated Story 4243586333205857142
-* greet
-    - utter_greet
-    - utter_ask_goal
-* signup_newsletter
-    - utter_great
-    - utter_ask_email
-* enter_data{"email": "dunkirk@dun.kir"}
-    - slot{"email": "dunkirk@dun.kir"}
-    - utter_confirm_email
-
-## Generated Story 3722400804970806825
-* greet
-    - utter_greet
-    - utter_ask_goal
-* signup_newsletter
-    - utter_great
-    - utter_ask_email
-* utter_out_of_scope
-    - utter_out_of_scope
-    - utter_possibilities
-* signup_newsletter
-    - utter_great
-    - utter_ask_email
-* enter_data{"email": "tmkoc@sablive.com"}
-    - slot{"email": "tmkoc@sablive.com"}
-    - utter_confirm_email
-
-## Generated Story 9198447009789851700
+## Generated Story -2099830986034178826
 * greet
     - utter_greet
     - utter_ask_goal
 * signup_account
     - utter_great
     - utter_ask_username
-* enter_data{"username": "alexmhack"}
+* enter_data{"username": "hoolering"}
+    - slot{"username": "hoolering"}
     - utter_awesome_username
     - utter_ask_email
-* enter_data{"email": "discovery@hdworld.com"}
-    - slot{"email": "discovery@hdworld.com"}
+* enter_data{"email": "hoolering@hooler.com"}
+    - slot{"email": "hoolering@hooler.com"}
     - utter_confirm_email
+
+## Generated Story -9063751428540176012
+* signup_account{"username": "hungama", "email": "hungama@channels.com"}
+    - slot{"email": "hungama@channels.com"}
+    - slot{"username": "hungama"}
+    - utter_confirm_email
+
+## Generated Story -1181557950195915307
+* signup_account
+    - utter_great
+    - utter_ask_username
+* enter_data{"username": "trainspotting"}
+    - slot{"username": "trainspotting"}
+    - utter_awesome_username
+    - utter_ask_email
+* enter_data{"email": "train@spott.ing"}
+    - slot{"email": "train@spott.ing"}
+    - utter_confirm_email
+    - utter_anything_else
+* deny
+    - utter_alright_then
+
+## Generated Story 1898279742360398853
+* greet
+    - utter_greet
+    - utter_ask_goal
+* signup_account
+    - utter_great
+    - utter_ask_username
+* enter_data{"username": "godaddy"}
+    - slot{"username": "godaddy"}
+    - utter_awesome_username
+    - utter_ask_email
+* enter_data{"email": "train@spott.ing"}
+    - slot{"email": "train@spott.ing"}
+    - utter_confirm_email
+    - utter_anything_else
+* deny
+    - utter_alright_then
+
+## Generated Story -2244299534159517402
+* signup_account
+    - utter_great
+    - utter_ask_username
+* enter_data{"username": "ghostprotocol"}
+    - slot{"username": "ghostprotocol"}
+    - utter_awesome_username
+    - utter_ask_email
+* enter_data{"email": "ghost@proto.col"}
+    - slot{"email": "ghost@proto.col"}
+    - utter_confirm_email
+    - utter_anything_else
+* deny
+    - utter_alright_then
 
