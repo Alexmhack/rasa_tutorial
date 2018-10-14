@@ -12,10 +12,8 @@
 * enter_data{"email": "pranav@rasa.com"}
     - slot{"email": "pranav@rasa.com"}
     - utter_confirm_email
-    - utter_ask_password
-* enter_data{"password": "password"}
-    - slot{"password": "password"}
     - utter_confirm_details
+    - action_store_email
     - utter_anything_else
 * deny
     - utter_alright_then
