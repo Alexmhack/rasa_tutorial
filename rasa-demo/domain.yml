@@ -81,4 +81,3 @@ actions:
   - utter_anything_else
   - utter_alright_then
   - utter_confirm_details
-  - action_store_email
