@@ -1,3 +1,5 @@
+from .utils import send_email
+
 class ActionStoreEmail(Action):
     """Stores the email in a slot"""
 
@@ -6,6 +8,9 @@ class ActionStoreEmail(Action):
 
     def run(self, dispatcher, tracker, domain):
         email = next(tracker.get_latest_entity_values('email'), None)
+
+        if email:
+            send_email(email)
 
         # if no email entity was recognised, prompt the user to enter a valid
         # email and go back a turn in the conversation to ensure future
