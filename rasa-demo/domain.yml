@@ -60,13 +60,10 @@ templates:
     - text: "Is there anything else I can help you with"
   utter_alright_then:
     - text: "Alright then"
-  utter_ask_password:
-    - text: "Please enter your password"
   utter_confirm_details:
     - text: "Please check your details
             username: {username}
-            email: {email}
-            password: {password}"
+            email: {email}"
 
 actions:
   - utter_greet
@@ -83,5 +80,5 @@ actions:
   - utter_awesome_username
   - utter_anything_else
   - utter_alright_then
-  - utter_ask_password
   - utter_confirm_details
+  - action_store_email
