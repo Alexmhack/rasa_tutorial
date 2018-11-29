@@ -1,13 +1,16 @@
 import requests
+from random import uniform
 
 url = 'http://localhost:5005/webhooks/rest/webhook'
+
+sender = uniform(0, 20)
 
 while True:
 	message = input(">> ")
 	if message == 'stop':
 		break
 	data = {
-		"sender": "Rasa",
+		"sender": sender,
 		"message": f"{message}"
 	}
 	try:
