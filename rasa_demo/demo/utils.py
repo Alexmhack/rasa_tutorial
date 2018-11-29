@@ -28,8 +28,3 @@ def send_mail(email=None):
 			print("ERROR: " + e)
 	else:
 		print('NONE PROVIDED INSTEAD OF EMAIL')
-
-
-
-if __name__ == '__main__':
-	send_mail()
