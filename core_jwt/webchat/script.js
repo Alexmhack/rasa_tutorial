@@ -1,5 +1,7 @@
 var botui = new BotUI('my-botui-app');
 
+console.log(value);
+
 $(() => {
 
 	// for enabling CORS headers
