@@ -10,6 +10,10 @@ while True:
 		"sender": "Rasa",
 		"message": f"{message}"
 	}
-	r = requests.post(url, json=data)
-	print(r.status_code)
-	print(r.json())
+	try:
+		r = requests.post(url, json=data)
+		print(r.status_code)
+		print(r.json())
+	except Exception as e:
+		print(e)
+
