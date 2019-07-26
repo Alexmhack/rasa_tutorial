@@ -26,11 +26,12 @@ $(() => {
 			traditional: true,
 			crossDomain: true,
 			success: (res) => {
+				console.log(res);
 				if (res.value == "Alright then") {
 					console.log('STOP HERE');
 				}
 				for (var i=0; i<res.length; i++) {
-					console.log(res[i]['text'])
+					// console.log(res[i]['text'])
 					botui.message.add({
 						bot: true,
 						content: res[i]['text'],
